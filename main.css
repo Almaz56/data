@@ -1,0 +1,48 @@
+body {
+    padding: 20px;
+	font-family:sans-serif;
+}
+
+form {
+    float: left;
+}
+
+table {
+    float: right;
+    border-collapse: collapse;
+}
+th {
+    padding:10px;
+
+}
+td {
+    border: 1px solid rgb(200,200,200);
+	padding:10px;
+}
+td a {
+    font-weight:bold;
+    color:rgb(88,88,88);
+    text-decoration:none;
+}
+td a:hover {
+    color:rgb(11,11,11);
+}
+tr:nth-child(odd) td {
+    background:rgb(245,245,245);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"]{
+    margin:5px;
+    height:30px;
+    text-indent:5px;
+    width:170px;
+    border: 1px solid rgb(200,200,200);
+}
+input[type="submit"] {
+    margin:5px;
+    height:30px;
+    text-indent:5px;
+    width:170px;
+    cursor:pointer;}
